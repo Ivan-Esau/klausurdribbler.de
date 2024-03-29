@@ -1,0 +1,135 @@
+/* Grundlegende Stildefinitionen */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header-Stil */
+div > h1 {
+    text-align: center;
+    color: #004085;
+}
+
+.icon {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+/* Fachbereich-Stil */
+.Fachbereich > h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Fachbereich ul {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.modul {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.modul:hover {
+    background-color: #d4d4d4;
+}
+
+/* Infotext-Stil */
+.infotext {
+    background-color: #fff3cd;
+    border-left: 6px solid #ffeeba;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+#upformular {
+    color: #856404;
+    font-weight: bold;
+}
+
+.formular {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formular input[type="file"] {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.formular input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.formular input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
